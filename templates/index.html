@@ -1,0 +1,33 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogadores</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+
+    <div>
+        <h1>Informações dos jogadores</h1>
+    </div>
+
+    {% for Jogadores in ListaJogadores%}
+
+    <div class="cad">
+
+        <h2>Nome :{{ Jogadores.nome }}</h2>
+        <img src="/static/Jogos-para-PC-PlayStation-900x503.jpg">
+        <p>Jogo: {{ Jogadores.jogo }} </p>
+        <p>Posição: {{ Jogadores.posicao }} </p>
+        <p>Ranking: {{Jogadores.rank}} </p>
+        <br>
+
+    </div>
+
+    {% endfor %}
+
+</body>
+</html>

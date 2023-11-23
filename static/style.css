@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #e0e0e0 url(/static/PWhQdIR.jpg) center center/cover no-repeat;
+    text-align: center;
+    padding: 50px;
+    align-items: center;
+}
+
+.cad {
+    background-color: #fff;
+    padding: 20px;
+    width: 260px;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    display: inline-block;
+    margin: 20px;
+
+}
+
+img {
+    max-width: 230px;
+}
+
+#bb{
+    width: 100px;
+    height: 30px;
+    border-radius: 7px;
+    background-color: darkseagreen;
+    color: white;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#bb:hover{
+    background-color: #50c24c;
+}
+
+input{
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    margin: 10px;
+    border: solid 1.5px;
+}
