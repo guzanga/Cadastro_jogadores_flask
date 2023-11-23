@@ -25,14 +25,14 @@ img {
     width: 100px;
     height: 30px;
     border-radius: 7px;
-    background-color: darkseagreen;
+    background-color: #4ea84e;
     color: white;
     margin: 5px;
     cursor: pointer;
 }
 
 #bb:hover{
-    background-color: #50c24c;
+    background-color: #287326;
 }
 
 input{
@@ -41,4 +41,19 @@ input{
     border-radius: 5px;
     margin: 10px;
     border: solid 1.5px;
+}
+
+#cadastrar{
+    width: 150px;
+    height: 30px;
+    border-radius: 7px;
+    background-color: #4ea84e;
+    color: white;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#cadastrar:hover{
+    background-color: #287326;
+    cursor: pointer;
 }
